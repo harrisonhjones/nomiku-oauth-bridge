@@ -23,7 +23,7 @@ app.get('/authorize', function (req, res) {
                 res.send("Something bad happened. Unable to load the login page. Error = " + JSON.stringify(err));
             else
             {
-                var Handlebars = require("Handlebars");
+                var Handlebars = require("handlebars");
                 var template = Handlebars.compile(data);
                 var context = {redirect_uri: req.query['redirect_uri']};
                 var html    = template(context);
