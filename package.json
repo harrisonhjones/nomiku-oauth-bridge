@@ -4,7 +4,8 @@
   "description": "A OAuth bridge for the Nomiku/Eat Tender service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Harrison Jones (harrison@hhj.me)",
   "licenses": [
@@ -12,9 +13,6 @@
     "type": "MIT",
     "url": "https://github.com/harrisonhjones/nomiku-js/blob/master/LICENSE"
   }],
-  "scripts": {
-    "start": "index.js"
-  },
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
