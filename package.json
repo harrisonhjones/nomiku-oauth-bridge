@@ -1,0 +1,21 @@
+{
+  "name": "nomiku-oauth-bridge",
+  "version": "1.0.0",
+  "description": "A OAuth bridge for the Nomiku/Eat Tender service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harrison Jones (harrison@hhj.me)",
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/harrisonhjones/nomiku-js/blob/master/LICENSE"
+  }],
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "handlebars": "^4.0.5",
+    "nomiku-js": "^1.0.2"
+  }
+}
